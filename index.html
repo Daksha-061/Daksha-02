@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <style>
+        .banner1 {
+            background-color: #FFD700;
+            padding: 10px;
+            color: #000;
+        }
+
+        .banner2 {
+            background-color: #87CEEB;
+            padding: 10px;
+            color: #000;
+        }
+
+        .banner3 {
+            background-color: #98FB98;
+            padding: 10px;
+            color: #000;
+        }
+
+        .banner4 {
+            background-color: #FFC0CB;
+            padding: 10px;
+            color: #000;
+        }
+
+        .question {
+            margin-bottom: 10px;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .correct {
+            color: green;
+        }
+
+        .incorrect {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz on Motion in a Straight Line</h1>
+
+    <div class="question">
+        <h3 class="banner1">1. The rate of change of distance or the distance traversed in a unit time is
+            known as what?</h3>
+        <ul>
+            <li><input type="radio" name="q1" value="A">speed</li>
+            <li><input type="radio" name="q1" value="B">displacement</li>
+            <li><input type="radio" name="q1" value="C">vector</li>
+            <li><input type="radio" name="q1" value="D">acceleration</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner2">2. What calculation do we use to check displacement?</h3>
+        <ul>
+            <li><input type="radio" name="q2" value="A">Final velocity - Initial Velociy / Time</li>
+            <li><input type="radio" name="q2" value="B">Distance / Time</li>
+            <li><input type="radio" name="q2" value="C">Mean Displacement / Time</li>
+            <li><input type="radio" name="q2" value="D">Velocity x Time</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner3">3. In a displacement/time graph, since the x-axis represents time, the difference of two x coordinates will be?</h3>
+        <ul>
+            <li><input type="radio" name="q3" value="A">The Time Interval</li>
+            <li><input type="radio" name="q3" value="B">The Distance Interval</li>
+            <li><input type="radio" name="q3" value="C">Velocity</li>
+            <li><input type="radio" name="q3" value="D">Gradient</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner4">4. In a velocity-time graph, where do we plot the time and the velocity?</h3>
+        <ul>
+            <li><input type="radio" name="q4" value="A">Both in the x-axis while the distance should be in the y-axis.</li>
+            <li><input type="radio" name="q4" value="B">Time on x-axis and Velocity on y-axis.</li>
+            <li><input type="radio" name="q4" value="C">Velocity on the x-axis and Time on the y-axis.</li>
+            <li><input type="radio" name="q4" value="D"> All are acceptable.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner1">5. Which of the following facts about DISTANCE is false?</h3>
+        <ul>
+            <li><input type="radio" name="q5" value="A">It is a vector quantity.</li>
+            <li><input type="radio" name="q5" value="B">It only has a magnitude.</li>
+            <li><input type="radio" name="q5" value="C">It is a scalar quantity.</li>
+            <li><input type="radio" name="q5" value="D">To get distance, you multiply speed and time.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner2">6. When an object falls, what will happen at the same time?</h3>
+        <ul>
+            <li><input type="radio" name="q6" value="A">Its velocity will rapidly increase</li>
+            <li><input type="radio" name="q6" value="B">Its velocity will gradually increase</li>
+            <li><input type="radio" name="q6" value="C">Its velocity will rapidly decreas.</li>
+            <li><input type="radio" name="q6" value="D">Its velocity will gradually decrease</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner3">7. What do we call for a negative acceleration?</h3>
+        <ul>
+            <li><input type="radio" name="q7" value="A">No Velocity</li>
+            <li><input type="radio" name="q7" value="B">Deacceleration</li>
+            <li><input type="radio" name="q7" value="C">Displacement</li>
+            <li><input type="radio" name="q7" value="D">None of the above</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner4">8. Which one of these is a VECTOR quantity?</h3>
+        <ul>
+            <li><input type="radio" name="q8" value="A">Velocity</li>
+            <li><input type="radio" name="q8" value="B">Speed</li>
+            <li><input type="radio" name="q8" value="C">Distance</li>
+            <li><input type="radio" name="q8" value="D">All of the above</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner1">9. What is the magnitude of displacement?</h3>
+        <ul>
+            <li><input type="radio" name="q9" value="A">The straight line distance from the initial to the final point</li>
+            <li><input type="radio" name="q9" value="B">The straight line from the initial point upon acceleration.</li>
+            <li><input type="radio" name="q9" value="C">The straight lines from the initial point to the final point.</li>
+            <li><input type="radio" name="q9" value="D">All of the above.</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h3 class="banner2">10. At what point will the results be more accurate from the displacement-time graph?</h3>
+        <ul>
+            <li><input type="radio" name="q10" value="A">If three distant points are chosen to find the gradient.</li>
+            <li><input type="radio" name="q10" value="B">If we find the corresponding differences of the y-coordinates.</li>
+            <li><input type="radio" name="q10" value="C">If two distant points are chosen to find the the gradient.</li>
+            <li><input type="radio" name="q10" value="D">All above</li>
+        </ul>
+    </div>
+
+    <button type="submit" onclick="checkAnswers()">Submit</button>
+    <div class="result" id="result"></div>
+
+    <script>
+        function checkAnswers() {
+            var questions = 10; // Total number of questions
+            var score = 0;
+
+            // Correct answers
+            var answers = [
+                "A", // Question 1
+                "D", // Question 2
+                "A", // Question 3
+                "A", // Question 4
+                "A", // Question 5
+                "B", // Question 6
+                "B", // Question 7
+                "A", // Question 8
+                "A", // Question 9
+                "C"  // Question 10
+            ];
+
+            for (var i = 1; i <= questions; i++) {
+                var answer = document.querySelector('input[name="q' + i + '"]:checked');
+
+                if (answer != null) {
+                    if (answer.value === answers[i-1]) {
+                        score++;
+                        answer.parentElement.classList.add("correct");
+                    } else {
+                        answer.parentElement.classList.add("incorrect");
+                    }
+                }
+            }
+
+            score = parseInt(score / questions * 100);
+            document.getElementById("result").innerHTML = "Score: " + score + "%";
+        }
+    </script>
+</body>
+</html>
+
